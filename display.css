@@ -1,0 +1,12 @@
+body{
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://img.freepik.com/free-vector/medical-blue-backgorund-with-heartbeat-line_1017-30387.jpg?t=st=1714212702~exp=1714216302~hmac=a0c52328c25d0b22f06050ab40564b37a59bdfd8a19e69a79f4da114d4485ddf&w=1060");
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  h2{
+    text-align:center;
+  }

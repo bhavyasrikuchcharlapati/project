@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family:'monospace';
+}
+h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-image: url("https://img.freepik.com/free-vector/blue-medical-care-service-background-with-cross-cardio-graph_1017-44793.jpg?t=st=1713951610~exp=1713955210~hmac=c7540e8c6cbfa977d7b4462798d811e6cd28e75db12c84543cc862e13c8a7299&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: 350px;
+    width: 400px;
+    padding-top: 20px;
+}
+.doctor{
+    padding-left: 130px;
+    padding-right: 90px;
+} 
+.name{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}

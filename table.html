@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='table.css')}}">
+  </head>
+      <script src="script.js"></script>
+<body>
+  <h1>APPOINTMENT SUCCESSFULL</h1>
+    <table id="patientTable" border='5px' align=center
+    width="10%"
+    height="100px"
+    cellspacing="10";
+    cellpadding="10">
+            <tr>
+                <th>Doctor</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+        <tr>
+            <td>{{doc}}</td>
+            <td>{{date}}</td>
+            <td>{{time}}</td>
+            <!-- Add more table cells as needed -->
+        </tr>
+        <tbody>
+            <!-- Table rows will be populated dynamically using JavaScript -->
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh ;
+    border-color:rgb(255, 255, 255);
+    font-style:roboto;
+   }
+ body{
+   background-image:url("https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854031.jpg?t=st=1714029461~exp=1714033061~hmac=14ff166d04f8c5ff58433dfd5c31b39180be07940f352fe7e817bdc85bcd631c&w=826 ");
+   background-size:cover; 
+   text-align: center;
+   padding:100px;
+ 
+ }
+ 

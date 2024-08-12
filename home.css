@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/8545632.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 99%;
+    background-size:cover;
+}
+.nav{
+    background-color: rgba(62, 116, 183, 0.736);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(9, 9, 9);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    position: relative;
+}
+li a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(8, 0, 0);
+    transition: 0.4s linear;
+}
+li a:hover::before{
+    width:90%;
+}
+.h-text{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 2.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: rgba(36, 92, 187, 0.838);
+    color: rgb(20, 3, 3);
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    background: transparent;
+    border: 3px solid rgb(18, 57, 116);
+}
+.a{
+    font-weight: bolder;
+}
+.logo img{
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 250px;
+    display: inline-block;
+}
+ 

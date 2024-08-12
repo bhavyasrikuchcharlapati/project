@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='appoint.css')}}">
+</head>
+<body>
+    <h1 align="center">APPOINTMENT FORM</h1>
+    <div class="div">
+        <form method="POST" action="/appoint">
+            <p><label>First Name: </label><input type="text" id="First_name" name="First_name" required>
+            <label>Gender: </label>
+            <input type="radio" name="Gender" value="male" checked>Male`
+            <input type="radio" name="Gender" value="female" checked>Female<br></p>
+            <p><label>Last Name: </label><input type="text" id="Last_name" name="Last_name" required>
+            <label>Age: </label>
+            <input type="number" id="Age" name="Age" required><br></p>
+            <p><label>Mobile No: </label><input class="mo" type="text" id="Mobile_number" name="Mobile_number" maxlength="10" minlength="10" required>
+            <label>Email Id: </label>
+            <input type="text" id="Email_id" name="Email_id" required><br></p>
+            <p><label>Address: </label>
+            <textarea rows="2" cols="60" id="Address" name="Address" required></textarea><br></p>
+            <p><label>Issue:</label>
+            <input type="text" id="Issue" name="Issue" required>
+            <label style="padding-left: 40px;">Doctor: </label>
+                <select name="Doctor" id="Doctor">
+                    <option value="Dr.Adam Martin">Dr.Adam Martin</option>
+                    <option value="Dr.Eve Martin">Dr.Eve Martin</option>
+                </select>
+                </p>
+                <p><label for="date" class="date"> Date </label>
+                    <input
+                      type="date"
+                      name="Date"
+                      id="Date"
+                      class="formbold-form-input"
+                    />
+                    <label style="padding-left: 100px;">Time: </label>
+                        <select name="Time" id="Time">
+                            <option value="Morning_Session">Morning Session</option>
+                            <option value="Afternoon_Session">Afternoon Session</option>
+                        </select></p>
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>      
+        </form>
+    </div>
+</body>
+</html>

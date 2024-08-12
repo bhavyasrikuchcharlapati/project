@@ -1,0 +1,13 @@
+body{
+    padding: 25px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url("https://img.freepik.com/free-vector/stylish-blue-medical-background-with-hexagon_1017-19373.jpg?t=st=1715322809~exp=1715326409~hmac=71efb0f875c917f39867e7c4dbee7c73cc7ea8ccd46ae2b80963295a5cfdd40e&w=900");
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  h1{
+    text-align:center;
+    padding-top:100px;
+  }
